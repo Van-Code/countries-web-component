@@ -19,6 +19,7 @@ class CountryItem extends HTMLElement {
   }
   connectedCallback() {
     this.setAttribute("tabindex", 0);
+    this.setAttribute("role", "listitem");
   }
 }
 customElements.define("country-item", CountryItem);

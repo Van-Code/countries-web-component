@@ -28,6 +28,7 @@ class EuCountryList extends HTMLElement {
   }
   connectedCallback() {
     this.setAttribute("tabindex", 0);
+    this.setAttribute("role", "list");
   }
 }
 customElements.define("eu-country-list", EuCountryList);
