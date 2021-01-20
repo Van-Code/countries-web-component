@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <style>
+      eu-country-list {
+        display: inline-block;
+        scroll-behavior: smooth;
+        overflow-y: scroll;
+        width: 250px;
+        height: 250px;
+      }
+    </style>
+  </head>
+  <script src="country-item.js" defer></script>
+  <script src="country-list.js" defer></script>
+
+  <body>
+    <template id="country-item-template">
+      <style>
+        :host {
+          background-repeat: no-repeat;
+          position: center left;
+          padding-left: 70px;
+          min-height: 64px;
+          display: flex;
+          justify-content: center;
+          flex-wrap: wrap;
+          flex-direction: column;
+        }
+      </style>
+      <div id="name"></div>
+      <em id="capital"></em>
+    </template>
+    <eu-country-list> </eu-country-list>
+  </body>
+</html>
