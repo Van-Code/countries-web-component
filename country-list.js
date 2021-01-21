@@ -1,4 +1,4 @@
-class EuCountryList extends HTMLElement {
+class XCountryList extends HTMLElement {
   constructor() {
     super();
 
@@ -31,4 +31,4 @@ class EuCountryList extends HTMLElement {
     this.setAttribute("role", "list");
   }
 }
-customElements.define("eu-country-list", EuCountryList);
+customElements.define("x-country-list", XCountryList);
