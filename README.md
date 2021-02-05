@@ -1,7 +1,14 @@
 # countries-web-component
 
-A simple Web Component. Scrollable list of countries displaying an image of the country's flag, country name, and capital. 
+This is a example of a Web Component. A scrollable list of items populated with data from this REST API--https://restcountries.eu/rest/v2/all
 
->Web Components aims to solve such problems — it consists of three main technologies, which can be used together to create versatile custom elements with encapsulated functionality that can be reused wherever you like without fear of code collisions.
+This example includes the following specifications:
 
+1. Custom Element
+2. Shadow Dom
+3. HTML Template
+
+>Web components are a set of web platform APIs that allow you to create new custom, reusable, encapsulated HTML tags to use in web pages and web apps. Custom components and widgets build on the Web Component standards, will work across modern browsers, and can be used with any JavaScript library or framework that works with HTML.
+
+https://www.webcomponents.org/
 https://developer.mozilla.org/en-US/docs/Web/Web_Components
